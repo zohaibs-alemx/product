@@ -22,20 +22,21 @@ import { Order } from './entities/order.entity';
 import { OrderLine } from './entities/order-line.entity';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { AuthModule } from './modules/auth/auth.module';
-import { RolesModule } from './modules/roles/roles.module';
-import { ProductsModule } from './modules/products/products.module';
-import { ImagesModule } from './modules/images/images.module';
-import { BrandsModule } from './modules/brands/brands.module';
-import { CategoriesModule } from './modules/categories/categories.module';
-import { StockModule } from './modules/stock/stock.module';
-import { LocationsModule } from './modules/locations/locations.module';
-import { VariantsModule } from './modules/variants/variants.module';
-import { ColorsModule } from './modules/colors/colors.module';
-import { SizesModule } from './modules/sizes/sizes.module';
-import { SalesModule } from './modules/sales/sales.module';
-import { CustomersModule } from './modules/customers/customers.module';
-import { OrdersModule } from './modules/orders/orders.module';
+import { AuthModule } from './auth/auth.module';
+import { RolesModule } from './roles/roles.module';
+import { ProductsModule } from './products/products.module';
+import { ImagesModule } from './images/images.module';
+import { BrandsModule } from './brands/brands.module';
+import { CategoriesModule } from './categories/categories.module';
+import { StockModule } from './stock/stock.module';
+import { LocationsModule } from './locations/locations.module';
+import { VariantsModule } from './variants/variants.module';
+import { ColorsModule } from './colors/colors.module';
+import { SizesModule } from './sizes/sizes.module';
+import { SalesModule } from './sales/sales.module';
+import { CustomersModule } from './customers/customers.module';
+import { OrdersModule } from './orders/orders.module';
+
 
 @Module({
   imports: [
